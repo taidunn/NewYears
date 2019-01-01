@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class NewYears 
 {
-	private static int year;
+	private static String year;
 	static Scanner userInput = new Scanner(System.in);
 	
 	public static void main(String[] args) 
@@ -12,6 +12,6 @@ public class NewYears
 	private static void promptForInput() 
 	{
 		System.out.print("What year is it for you: ");
-		year = userInput.nextInt();
+		year = userInput.nextLine();
 	}
 }
